@@ -12,6 +12,7 @@ class TutorialsController < ApplicationController
   def index_4
   end
   
-  
+  def index_5
+  end
   
 end
