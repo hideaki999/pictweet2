@@ -1,0 +1,4 @@
+<%= form_for @tweet do |f| %>
+天使の声:<%= f.text_area :text, cols: 40, rows: 3  %>
+<%= f.submit "送信" %>
+<% end %>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pictweet</title>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    
+    
+  </head>
+  <header class=header>
+    <ol>
+      <ui><%= link_to "天使と悪魔の入り口へ", "/" %></ui>
+      <ui><%= link_to "人間世界へ", " /humans" %></ui>
+    </ol>
+  </header>
+  <body class="body">
+    
+    <%= yield %>
+    
+  </body>
+  
+  <footer class=footer>
+    
+  </footer>
+
+</html>
